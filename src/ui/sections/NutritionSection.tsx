@@ -5,7 +5,7 @@ import { useGSAP } from "@gsap/react";
 import { SplitText } from "gsap/all";
 import gsap from "gsap";
 
-const NutritionSection: React.FC = () => {
+const NutritionSection = () => {
 	useGSAP(() => {
 		const titleSplit = SplitText.create(".nutrition-title", {
 			type: "chars",

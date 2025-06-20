@@ -5,7 +5,7 @@ import { SplitText } from "gsap/all";
 import Image from "next/image";
 import React from "react";
 
-const HeroSection: React.FC = () => {
+const HeroSection = () => {
 	useGSAP(() => {
 		const titleSplit = SplitText.create(".hero-title", { type: "chars" });
 

@@ -6,7 +6,7 @@ import { flavorsList } from "@/lib/constants";
 import { useMediaQuery } from "react-responsive";
 import Image from "next/image";
 
-const FlavorsSection: React.FC = () => {
+const FlavorsSection = () => {
 	const isSmallScreen = useMediaQuery({
 		query: "(max-width: 1024px)",
 	});
